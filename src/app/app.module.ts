@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { NewProjectComponent } from './components/new-project/new-project.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [AppComponent, LoginComponent, NewProjectComponent],
   imports: [
@@ -14,6 +15,7 @@ import { MatSliderModule } from '@angular/material/slider';
     MatSliderModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
